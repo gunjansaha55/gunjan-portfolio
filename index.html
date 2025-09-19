@@ -1,250 +1,405 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>gunjansaha55</title>
- 
-<link rel="icon" type="image/png" href="./assets/sign.jpeg" sizes="32x32" />
- <link rel="apple-touch-icon" href="./assets/sign.jpeg">
+    <link href="./output.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">gunjansaha55</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Education & Experience</a></li>
-          <li><a href="#projects">Other Socials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-   
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Gunjan Saha</h1>
-        <p class="section__text__p2">Community Partnership Manager at 
-          <a href="https://www.projectx.cloud" target="_blank" class="projectx-link">
-          ProjectX
-        </a></p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"g
-            onclick="window.open('./assets/Gunjan Saha Resume.pdf')"
+    <link rel="icon" href="assets/sign.jpeg" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/sign.jpeg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/sign.jpeg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/sign.jpeg">
+</head>
+
+
+
+
+
+  <body class="antialiased font-sans">
+    <div class="min-h-dvh min-w-80 bg-white text-zinc-800">
+      <main
+        id="page-content"
+        class="mx-auto flex max-w-6xl flex-auto flex-col px-4 pb-4 lg:px-8 lg:pb-8">
+        <header
+          id="page-header"
+          class="flex flex-none items-center justify-between py-7">
+         
+          <div class="flex items-center gap-4">
+
+
+            <nav class="flex items-center gap-6">
+              <a class="text-sm font-medium decoration-yellow-600 decoration-2 underline-offset-8 hover:text-black hover:underline">
+                gunjansaha55
+              </a>
+             </nav>
+
+            </div>
+        </header>
+
+
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-12">
+          <div class="col-span-1 md:col-span-5">
+            <img
+              src="assets/profile_pic.png"
+              alt="Photo"
+              class="rounded-xl object-cover w-full aspect-square"
+            />
+          </div>
+
+          <div
+            class="relative col-span-1 flex flex-col overflow-hidden rounded-xl bg-zinc-100 p-12 md:col-span-7">
+            <div
+              aria-hidden="true"
+              class="absolute -top-20 -left-20 size-48 rounded-full bg-yellow-500 blur-2xl"
+            ></div>
+            <div
+              aria-hidden="true"
+              class="absolute -top-10 -right-10 size-64 rounded-full bg-orange-300 blur-3xl"
+            ></div>
+            <div
+              aria-hidden="true"
+              class="absolute inset-0 bg-yellow-100/50 backdrop-blur-md"
+            ></div>
+            <div class="relative mt-auto">
+              <h1 class="text-4xl font-medium text-black">
+                Hi there, I'm Gunjan Saha!
+              </h1>
+              <h2 class="mt-3 leading-relaxed text-zinc-900">
+               I thrive at the intersection of technology, entrepreneurship, and community building. Currently, I manage Partnerships, Community, and Growth at ProjectX, where I collaborate with teams, partners, and creators to drive impactful initiatives.
+
+Beyond that, I founded G. NOVA ARENA, a hybrid gaming and esports community that unites digital gamers and field athletes under one platform. From hosting online tournaments to organizing offline football, basketball, and cricket events, I have created a space where competition sparks skill development, teamwork, and meaningful connections.
+
+What motivates me is building ecosystems—whether for startups, communities, or events—that enable people to grow and engage meaningfully. With hands-on experience across startup environments, event management, and partnership development, I bring adaptability, leadership, and execution to every project.
+
+If you are building something around tech, sports, gaming, or community-led growth, let's connect.
+              </h2>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+        <div
+            id="education"
+            class="relative col-span-1 flex flex-col overflow-hidden rounded-xl bg-zinc-100 px-12 py-20 md:col-span-12"
           >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/gunjansaha55/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/gunjansaha55'"
-          />
-          <img
-            src="./assets/facebook.png"
-            alt="My Facebook profile"
-            class="icon facebook-icon"
-            onclick="location.href='https://www.facebook.com/gunjansaha55'"
-          />
-          <img
-            src="./assets/instagram.png"
-            alt="My Instagram profile"
-            class="icon instagram-icon"
-            onclick="location.href='https://www.instagram.com/gunjansaha55/'"
-          />
-          <img
-            src="./assets/twitter.png"
-            alt="My Twitter profile"
-            class="icon twitter-icon"
-            onclick="location.href='https://x.com/gunjansaha55'"
-          />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.JPG"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            
-              
-          <div class="text-container">
-            <p>
-              Gunjan Saha, a B.Tech student in Computer Science and Business Systems at the Academy of Technology, is a dedicated and goal-oriented individual with hands-on experience in startup environments. Currently serving as a Partnerships and Community Manager at ProjectX, Gunjan brings a strong work ethic, adaptability, and a solutions-driven mindset to every task. Passionate about leveraging technology to drive innovation, he excels in collaboration and problem-solving. Beyond academics and work, his active participation in team sports like football and basketball highlights his teamwork and leadership abilities.
-            </p>
-          
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Education & Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            
-            <div class="article-container">
-              
-              <section id="education">
-                <div class="education-box">
-                  <h2 class="education-heading">Education</h2>
-                  <div class="education-item">
-                    <h3 class="school-name">Academy of Technology</h3>
-                    <p class="degree">BTech, Computer Science and Business System (2021-2025)</p>
+            <div
+              aria-hidden="true"
+              class="absolute -top-20 -left-20 size-48 rounded-full bg-pink-300 blur-2xl"
+            ></div>
+            <div
+              aria-hidden="true"
+              class="absolute -right-48 -bottom-48 size-96 rounded-full bg-indigo-200 blur-2xl"
+            ></div>
+            <div
+              aria-hidden="true"
+              class="absolute -top-48 -right-48 size-96 rounded-full bg-purple-200 blur-3xl"
+            ></div>
+            <div
+              aria-hidden="true"
+              class="absolute inset-0 bg-purple-100/50 backdrop-blur-md"
+            ></div>
+            <div class="relative mx-auto mt-auto max-w-md">
+              <h2 class="text-4xl font-medium text-black">
+                Education
+              </h2>
+              <ul class="mt-10 space-y-6">
+                <li class="relative pl-8">
+                  <div class="absolute top-1 left-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hi-solid hi-arrow-right-circle inline-block size-5 text-purple-500">
+                      <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+                    </svg>
                   </div>
-                  <div class="education-item">
-                    <h3 class="school-name">Hooghly Collegiate School</h3>
-                    <p class="degree">Science (2019-2021)</p>
+                  <h4 class="text-lg font-medium">
+                    B.Tech in Computer Science and Business System
+                  </h4>
+                  <p class="text-zinc-600">
+                   Academy of Technology, 2021-2025
+                  </p>
+                </li>
+                <li class="relative pl-8">
+                  <div class="absolute top-1 left-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hi-solid hi-arrow-right-circle inline-block size-5 text-purple-500">
+                      <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+                    </svg>
                   </div>
-                  <div class="education-item">
-                    <h3 class="school-name">Mahesh Sri Ramkrishna Ashram High School </h3>
-                    <p class="degree">(2013-2019)</p>
+                  <h4 class="text-lg font-medium">
+                    Higher Secondary Education
+                  </h4>
+                  <p class="text-zinc-600">
+                  Hooghly Collegiate School, 2019-2021
+                  </p>
+                </li>
+                <li class="relative pl-8">
+                  <div class="absolute top-1 left-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hi-solid hi-arrow-right-circle inline-block size-5 text-purple-500">
+                      <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm4.28 10.28a.75.75 0 0 0 0-1.06l-3-3a.75.75 0 1 0-1.06 1.06l1.72 1.72H8.25a.75.75 0 0 0 0 1.5h5.69l-1.72 1.72a.75.75 0 1 0 1.06 1.06l3-3Z" clip-rule="evenodd" />
+                    </svg>
                   </div>
-                </div>
-              </section>
-              
-
-
-
-
-          
+                  <h4 class="text-lg font-medium">
+                    Secondary Education
+                  </h4>
+                  <p class="text-zinc-600">
+                  Mahesh Sri Ramkrishna Ashram High School, 2013-2019
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="details-container">
-            <div class="article-container">
-              
-
-
-              <section id="education">
-                <div class="education-box">
-                  <h2 class="education-heading">Experience</h2>
-                  <div class="education-item">
-                    <h3 class="school-name">ProjectX</h3>
-                    <p class="degree">Partnerships and Community Manager (2024-Present)</p>
-                </div>
-              </section>
-              
 
 
 
 
-            </div>
-          </div>
-        </div>
+
+
+
+
+
+
+<div
+  id="experience"
+  class="relative col-span-1 flex flex-col overflow-hidden rounded-xl bg-zinc-100 px-12 py-20 md:col-span-12"
+>
+  <div
+    aria-hidden="true"
+    class="absolute -top-20 -left-20 size-48 rounded-full bg-orange-300 blur-2xl"
+  ></div>
+  <div
+    aria-hidden="true"
+    class="absolute -right-48 -bottom-48 size-96 rounded-full bg-amber-200 blur-2xl"
+  ></div>
+  <div
+    aria-hidden="true"
+    class="absolute -top-48 -right-48 size-96 rounded-full bg-orange-200 blur-3xl"
+  ></div>
+  <div
+    aria-hidden="true"
+    class="absolute inset-0 bg-orange-100/50 backdrop-blur-md"
+  ></div>
+  <div class="relative mx-auto mt-auto max-w-2xl w-full">
+    <h2 class="text-4xl font-medium text-black">
+      Experience
+    </h2>
+    <div class="mt-10 w-full space-y-8 border-l-2 border-orange-200/80">
+      <div class="relative pl-8">
+        <div class="absolute -left-[11px] top-1.5 size-5 rounded-full bg-orange-500 border-4 border-zinc-100"></div>
+        <h3 class="text-xl font-semibold text-black">Partnerships and Growth</h3>
+        <p class="mt-1 text-zinc-800">ProjectX — San Francisco, USA</p>
+        <p class="mt-1 text-sm font-medium text-zinc-600">Oct 2024 - Present</p>
+        <p class="mt-3 leading-relaxed text-zinc-700">
+             Spearheaded strategic partnerships with over 100 colleges and student communities, securing 30+ Memorandums of Understanding (MOUs) to expand market reach.
+             Drove company visibility and brand alignment by managing sponsorship of a college football team, significantly boosting audience impact.
+             Conducted comprehensive market research to identify and capitalise on new growth opportunities.
+        </p>
       </div>
+      <div class="relative pl-8">
+        <div class="absolute -left-[11px] top-1.5 size-5 rounded-full bg-orange-500 border-4 border-zinc-100"></div>
+        <h3 class="text-xl font-semibold text-black"> Founder </h3>
+        <p class="mt-1 text-zinc-800">G. NOVA ARENA - Bhadreswar, West Bengal, India</p>
+        <p class="mt-1 text-sm font-medium text-zinc-600">June 2015 - Present</p>
+        <p class="mt-3 leading-relaxed text-zinc-700">Lead team operations and event planning across online and offline formats.
+Managed and executed sports and gaming tournaments to drive engagement.
+Developed and implemented strategies for community growth and participation.
+Directed organisational leadership efforts to scale community impact.
+Bridged the gap between gamers and athletes by fostering inclusive, competitive environments.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  id="socials"
+  class="relative col-span-1 overflow-hidden rounded-xl bg-zinc-100 p-6 md:col-span-4"
+>
+  <h3 class="text-lg font-medium text-zinc-950">Socials</h3>
+
+  <div class="mt-4 space-y-3">
+    <div>
+      <h4 class="text-sm text-zinc-600">Personal Mail</h4>
+      <a
+        href="mailto:gunjansaha976@gmail.com"
+        class="text-sm font-medium text-zinc-900 hover:text-orange-600 transition-colors"
+        >gunjansaha976@gmail.com</a
+      >
+    </div>
+    <div>
+      <h4 class="text-sm text-zinc-600">Work Mail</h4>
+      <a
+        href="mailto:gunjan@projectx.cloud"
+        class="text-sm font-medium text-zinc-900 hover:text-orange-600 transition-colors"
+        >gunjan@projectx.cloud</a
+      >
+    </div>
+  </div>
+
+  <hr class="my-6 border-zinc-200" />
+
+  <div class="flex flex-wrap items-center gap-5">
+    <a
+      href="https://www.linkedin.com/in/gunjansaha55/" target="_blank"
+      aria-label="LinkedIn Profile"
+      class="transition-opacity hover:opacity-75"
+    >
       <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
+        src="./assets/linkedin.png"
+        alt="LinkedIn Icon"
+        class="w-6 h-6"
       />
-    </section>
-    <section id="projects">
+    </a>
+    <a
+      href="https://github.com/gunjansaha55" target="_blank"
+      aria-label="GitHub Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/github.png"
+        alt="GitHub Icon"
+        class="w-5.5 h-5.5"
+      />
+    </a>
+    <a
+      href="https://x.com/gunjansaha55" target="_blank"
+      aria-label="X (formerly Twitter) Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img src="./assets/x.png" alt="X Icon" class="w-6 h-6" />
+    </a>
+    <a
+      href="https://www.instagram.com/gunjansaha55/" target="_blank"
+      aria-label="Instagram Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/instagram.png"
+        alt="Instagram Icon"
+        class="w-6 h-6"
+      />
+    </a>
+    <a
+      href="https://www.threads.com/@gunjansaha55" target="_blank"
+      aria-label="Threads Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/threads.png"
+        alt="Threads Icon"
+        class="w-6 h-6"
+      />
+    </a>
+    <a
+      href="https://www.facebook.com/gunjansaha55" target="_blank"
+      aria-label="Facebook Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/facebook.png"
+        alt="Facebook Icon"
+        class="w-6 h-6"
+      />
+    </a>
+    <a
+      href="https://discordapp.com/users/917441369352597514" target="_blank"
+      aria-label="Discord Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/discord.png"
+        alt="Discord Icon"
+        class="w-6 h-6"
+      />
+    </a>
+  </div>
+</div>
+          
 
 
-      
-      <h1 class="title">Other Socials</h1>
-      <div class="contact-info-upper-container">
+
+
+
+
+
+
+
+
+
+
+
+<div
+  id="photographysocials"
+  class="relative col-span-1 overflow-hidden rounded-xl bg-zinc-100 p-6 md:col-span-4"
+>
+  <h3 class="text-lg font-medium text-zinc-950">Photography</h3>
+ <h4 class="text-sm text-zinc-600">@lensbygunjan</h4>
+  
+
+  <hr class="my-6 border-zinc-200" />
+
+  <div class="flex flex-wrap items-center gap-5">
+   
+  
+  
+    <a
+      href="https://www.instagram.com/lensbygunjan/" target="_blank"
+      aria-label="Instagram Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/instagram.png"
+        alt="Instagram Icon"
+        class="w-6 h-6"
+      />
+    </a>
+   
+    <a
+      href="https://www.facebook.com/profile.php?id=61576778815415" target="_blank"
+      aria-label="Facebook Profile"
+      class="transition-opacity hover:opacity-75"
+    >
+      <img
+        src="./assets/facebook.png"
+        alt="Facebook Icon"
+        class="w-6 h-6"
+      />
+    </a>
+   
+  </div>
+</div>
+
+
+
+
+
+
+
+
         
-        <div class="contact-info-container">
-          <img
-            src="./assets/Yt.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://youtube.com/@gunjansaha55?si=WSffvl1fVbVYOquD">Gunjan Saha</a></p>
-        </div>
-
-
-        <div class="contact-info-container">
-          <img
-            src="./assets/Yt.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://youtube.com/@mr.gunjan55?si=WUGuXxrgseJ9Zgxl">Mr. Gunjan</a></p>
-        </div>
+          <footer
+            class="flex flex-col gap-6 py-7 text-center text-sm md:col-span-12 md:flex-row-reverse md:justify-between md:gap-0 md:text-left">
+            <div class="text-zinc-500">
+              <span class="font-medium">Copyright © 2025 All Rights Reserved Gunjan Saha.</span>
+              <span x-text="new Date().getFullYear()"></span>
+            </div>
+          </footer>
+          </div>
+        </main>
       </div>
-
-
-
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:gunjansaha976@gmail.com">gunjansaha976@gmail.com</a></p>    
-      </div>
-      </div>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/@.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p>gunjansaha55</p>    
-      </div>
-      </div>
-    </section>
-    <footer class="foot">
-      <p>Copyright &#169; 2024 All Rights Reserved Gunjan Saha.</p>
-    </footer>
-    <script src="script.js"></script>
-    <script>
-      window.onload = function () {
-        const profileSection = document.querySelector('#profile');
-        if (profileSection) {
-          profileSection.scrollIntoView({ behavior: 'smooth' });
-        }
-      };
-    </script>
-  </body>
+    </body>
 </html>
